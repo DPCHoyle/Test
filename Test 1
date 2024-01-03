@@ -1,0 +1,32 @@
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Panoramic Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="panoramic.js"></script>
+</body>
+</html>
+// panoramic.js
+
+// Set your panoramic image URL
+const panoramicImageUrl = 'https://decorativepanels-my.sharepoint.com/:i:/g/personal/choyle_decorativepanels_co_uk/ERnrqKEsy1dIiW8PKb6E_zgBFlW6io0H2TvENHkwXDirsA?e=ajMn9Q';
+
+// ... (rest of the code remains the same)
+git add .
+git commit -m "Initial commit"
+git push origin master
